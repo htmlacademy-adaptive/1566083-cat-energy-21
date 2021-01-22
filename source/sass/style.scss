@@ -1,1 +1,17 @@
-// Начните писать стили здесь
+@import "programs.scss";
+@import "main-nav.scss";
+@import "social-list.scss";
+@import "desc.scss";
+@import "example.scss";
+@import "location.scss";
+@import "page-footer.scss";
+@import "font.scss";
+@import "page-header.scss";
+
+body {
+  background-color: #ffffff;
+  font-family: "Oswald", "Arial", sans-serif;
+}
+.page {
+  width: 320px;
+}

@@ -1,0 +1,94 @@
+.example {
+  background-color: #EAEAEA;
+  }
+
+.example__wrapper {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.example__weightdays {
+  border: 1px solid #CDCDCD;
+  box-sizing: border-box;
+  border-radius: 3px;
+  width: 124px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.example__description-weightdays {
+  height: 31px;
+  background-color: #EAEAEA;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  color: #444444;
+  bottom: -30px;
+  padding: 0 5px 0 5px;
+}
+
+.example__description {
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color: #444444;
+text-align: left;
+}
+
+.examle__title {
+font-family: Oswald;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 40px;
+/* identical to box height, or 111% */
+
+text-align: left;
+
+color: #000000;
+}
+
+
+.example__description--price {
+font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+text-transform: uppercase;
+}
+.slider__toggle {
+font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+}
+.example__general {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
