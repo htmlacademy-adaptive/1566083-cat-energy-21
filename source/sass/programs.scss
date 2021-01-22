@@ -1,7 +1,7 @@
 .programs {
 }
 .programs__header {
-  background-color: #68B738;
+  background-color: #68b738;
   height: 302px;
   color: #ffffff;
 }
@@ -10,64 +10,64 @@
   background-color: #f2f2f2;
 }
 .programs__subtitle {
-text-transform: uppercase;
-color: #000000;
-font-family: Oswald;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 37px;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 37px;
 }
 .programs__description {
-font-family: Arial;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 18px;
-/* or 129% */
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
 
-/* special_dark-grey */
+  /* special_dark-grey */
 
-color: #444444;
+  color: #444444;
 }
 .programs__link {
-font-family: Oswald;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 16px;
-text-align: center;
-text-transform: uppercase;
-color: #000000;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
 }
 
 .programs__button {
-display: flex;
-width: 280px;
-height: 40px;
-justify-content: center;
-align-items: center;
-background-color: #68B738;
-font-family: Oswald;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 18px;
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-color: #FFFFFF;
-outline: none;
-border: none;
+  display: flex;
+  width: 280px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: #68b738;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  outline: none;
+  border: none;
 }
 
 .programs__button:hover {
-  background: #5EAA2F;
+  background: #5eaa2f;
 }
 
 .programs__button:active {
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 0.3;
 }
 .programs__title {
@@ -77,21 +77,20 @@ border: none;
   font-size: 36px;
   line-height: 36px;
 
-
   text-align: center;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.programs__slogan{
+.programs__slogan {
   font-family: Oswald;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 14px;
-/* identical to box height, or 100% */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height, or 100% */
 
-text-transform: uppercase;
-text-align: center;
+  text-transform: uppercase;
+  text-align: center;
 
-color: #FFFFFF;
+  color: #ffffff;
 }

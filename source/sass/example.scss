@@ -1,6 +1,6 @@
 .example {
-  background-color: #EAEAEA;
-  }
+  background-color: #eaeaea;
+}
 
 .example__wrapper {
   margin-right: 20px;
@@ -8,7 +8,7 @@
 }
 
 .example__weightdays {
-  border: 1px solid #CDCDCD;
+  border: 1px solid #cdcdcd;
   box-sizing: border-box;
   border-radius: 3px;
   width: 124px;
@@ -22,7 +22,7 @@
 
 .example__description-weightdays {
   height: 31px;
-  background-color: #EAEAEA;
+  background-color: #eaeaea;
   font-family: Arial;
   font-style: normal;
   font-weight: normal;
@@ -38,54 +38,53 @@
 }
 
 .example__description {
-font-family: Arial;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 18px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
 
-font-family: Arial;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 18px;
-color: #444444;
-text-align: left;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+  text-align: left;
 }
 
 .examle__title {
-font-family: Oswald;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 40px;
-/* identical to box height, or 111% */
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 40px;
+  /* identical to box height, or 111% */
 
-text-align: left;
+  text-align: left;
 
-color: #000000;
+  color: #000000;
 }
-
 
 .example__description--price {
-font-family: Oswald;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 20px;
-text-align: center;
-text-transform: uppercase;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
 }
 .slider__toggle {
-font-family: Oswald;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 20px;
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
 }
 .example__general {
   display: flex;

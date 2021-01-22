@@ -1,5 +1,5 @@
 .page-footer {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .page-footer__contacts {
   display: flex;
@@ -8,19 +8,18 @@
   margin-right: 20px;
 }
 .contacts__title {
-font-family: Oswald;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 18px;
-/* or 112% */
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  /* or 112% */
 
-text-transform: uppercase;
+  text-transform: uppercase;
 
-color: #111111;
-width: 140px;
-height: 60px;
-
+  color: #111111;
+  width: 140px;
+  height: 60px;
 }
 .contacts__text {
   font-family: Arial;
@@ -30,16 +29,15 @@ height: 60px;
   line-height: 20px;
   /* or 143% */
 
-
   /* special_dark-grey */
 
   color: #444444;
   width: 140px;
-height: 60px;
+  height: 60px;
 }
 
 .page-footer__contacts {
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
