@@ -43,12 +43,6 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
-
-  font-family: "Arial", "Oswald", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 18px;
   color: $dark-grey-2;
   text-align: left;
 }
@@ -75,6 +69,7 @@
   text-align: center;
   text-transform: uppercase;
 }
+
 .slider__toggle {
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
@@ -86,6 +81,7 @@
   text-align: center;
   text-transform: uppercase;
 }
+
 .example__general {
   display: flex;
   align-items: center;

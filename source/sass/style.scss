@@ -7,7 +7,6 @@
 @import "example.scss";
 @import "location.scss";
 @import "page-footer.scss";
-
 @import "page-header.scss";
 @import "make-program.scss";
 @import "catalog__item.scss";
@@ -20,6 +19,7 @@ body {
   background-color: $white;
   font-family: "Oswald", "Arial", sans-serif;
 }
+
 .page {
   width: 320px;
 }

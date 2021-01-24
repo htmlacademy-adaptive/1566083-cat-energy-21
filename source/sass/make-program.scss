@@ -8,6 +8,7 @@
 
   color: $black;
 }
+
 .make-program__description {
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
@@ -20,6 +21,7 @@
 
   color: $black;
 }
+
 .make-program__data {
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
@@ -32,13 +34,15 @@
 
   /* special_dark-grey */
 }
+
 .make-program__choice {
   margin: 20px;
   border-top: 1px solid $light-grey-5;
   border-bottom: 1px solid $light-grey-5;
 }
+
 .make-program__owner-title {
-  font-family: Oswald;
+  font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -103,6 +107,7 @@
   color: $black;
   margin: 20px;
 }
+
 .make-program__additionally--list {
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
@@ -116,10 +121,12 @@
   color: $black;
   margin: 20px;
 }
+
 .make-program__additionally {
   display: flex;
   flex-direction: column;
 }
+
 .make-program__label {
   border: 1px solid $light-grey-4;
   box-sizing: border-box;
@@ -154,6 +161,7 @@
   box-sizing: border-box;
   margin-right: 20px;
 }
+
 .make-program__contacts-label {
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
@@ -176,6 +184,7 @@
   display: flex;
   margin-bottom: 14px;
 }
+
 .make-program__data--name-weight-years {
   display: flex;
   margin-right: 20px;
@@ -211,6 +220,7 @@
   opacity: 0;
   display: none;
 }
+
 .make-program__choice input[type="radio"] + label::before {
   content: "";
   display: block;
@@ -223,12 +233,15 @@
   display: flex;
   flex-direction: row;
 }
+
 .make-program__choice input[type="radio"]:checked + label::before {
   background-image: url("../img/radiobutton-active.svg");
 }
+
 .make-program__choice input[type="radio"]:disabled + label::before {
   background-image: url("../img/radiobutton-passive-down.svg");
 }
+
 .make-program__choice input[type="radio"]:checked:disabled + label::before {
   background-image: url("../img/radiobutton-active-down.svg");
 }
@@ -237,6 +250,7 @@
   opacity: 0;
   display: none;
 }
+
 .make-program__additionally--list input[type="checkbox"] + label::before {
   content: "";
   display: block;
@@ -249,16 +263,19 @@
   display: flex;
   flex-direction: row;
 }
+
 .make-program__additionally--list
   input[type="checkbox"]:checked
   + label::before {
   background-image: url("../img/checkbox-checked.svg");
 }
+
 .make-program__additionally--list
   input[type="checkbox"]:disabled
   + label::before {
   background-image: url("../img/checkbox-disabled.svg");
 }
+
 .make-program__additionally--list
   input[type="checkbox"]:checked:disabled
   + label::before {

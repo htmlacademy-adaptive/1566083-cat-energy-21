@@ -2,6 +2,7 @@
   height: 66px;
   border-bottom: 1px solid $light-grey-3;
 }
+
 .main-nav__wrapper {
   height: 264px;
   display: flex;
@@ -9,6 +10,7 @@
   justify-content: space-around;
   align-items: center;
 }
+
 .site-list__item {
   font-style: normal;
   font-weight: bold;
@@ -17,7 +19,6 @@
   text-transform: uppercase;
   height: 66px;
   border-bottom: 1px solid $light-grey-3;
-  justify-content: space-around;
   align-items: center;
   display: flex;
   text-align: center;
@@ -32,13 +33,16 @@
 .site-list__item > a:visited {
   color: $black;
 }
+
 .site-list__item a:hover {
   color: $black;
 }
+
 .site-list__item a:active {
   color: $black;
   opacity: 0.3;
 }
+
 .main-nav__toggle {
   background-image: url("../img/logo-open-main-menu.svg");
   width: 27px;

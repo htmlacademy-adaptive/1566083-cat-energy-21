@@ -12,7 +12,7 @@
 }
 
 .catalog__item--product-description-main {
-  font-family: Oswald;
+  font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -29,17 +29,11 @@
 }
 
 .catalog__item--product-description-add {
-  font-family: Arial;
+  font-family: "Arial", "Oswald", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 16px;
-  /* identical to box height, or 133% */
-
-  text-align: center;
-
-  /* special_dark-grey */
-
   columns: $dark-grey-2;
   display: flex;
   text-align: justify;

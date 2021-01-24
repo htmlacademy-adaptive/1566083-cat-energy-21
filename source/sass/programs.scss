@@ -4,19 +4,23 @@
   color: $white;
   position: relative;
 }
+
 .programs__header--chicken {
   background-image: url(../img/chicken-image.png);
   height: 270px;
   top: -135px;
   position: relative;
 }
+
 .programs__header--chicken-block {
   height: 135px;
 }
+
 .programs__item {
   margin: 20px;
   background-color: $light-grey-6;
 }
+
 .programs__subtitle {
   text-transform: uppercase;
   color: $black;
@@ -26,6 +30,7 @@
   font-size: 24px;
   line-height: 37px;
 }
+
 .programs__description {
   font-family: Arial;
   font-style: normal;
@@ -38,6 +43,7 @@
 
   color: $dark-grey-2;
 }
+
 .programs__link {
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
@@ -48,9 +54,11 @@
   text-transform: uppercase;
   color: $black;
 }
+
 .programs__link:active {
   opacity: 0.3;
 }
+
 .programs__button {
   display: flex;
   width: 280px;
@@ -79,6 +87,7 @@
   color: $white;
   opacity: 0.3;
 }
+
 .programs__title {
   font-family: Oswald;
   font-style: normal;
@@ -90,6 +99,7 @@
 
   color: $white;
 }
+
 .programs__slogan {
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
