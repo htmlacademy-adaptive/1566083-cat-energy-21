@@ -1,3 +1,6 @@
+
+@import "colors.scss";
+@import "font.scss";
 @import "programs.scss";
 @import "main-nav.scss";
 @import "social__list.scss";
@@ -5,14 +8,14 @@
 @import "example.scss";
 @import "location.scss";
 @import "page-footer.scss";
-@import "font.scss";
+
 @import "page-header.scss";
 @import "make-program.scss";
 @import "catalog__item.scss";
-@import "colors.scss";
 @import "copyright__link.scss";
-@import "product-more__item";
-@import "contacts";
+@import "product-more__item.scss";
+@import "contacts.scss";
+@import "catalog.scss";
 
 
 body {

@@ -1,5 +1,6 @@
+
 .example {
-  background-color: ;
+  background-color: $light-grey-1;
 }
 
 .example__wrapper {
@@ -8,7 +9,7 @@
 }
 
 .example__weightdays {
-  border: 1px solid $light-gray-2;
+  border: 1px solid $light-grey-2;
   box-sizing: border-box;
   border-radius: 3px;
   width: 124px;
@@ -22,7 +23,7 @@
 
 .example__description-weightdays {
   height: 31px;
-  background-color: $light-gray-1;
+  background-color: $light-grey-1;
   font-family: "Arial","Oswald", sans-serif;
   font-style: normal;
   font-weight: normal;
