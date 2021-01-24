@@ -1,0 +1,12 @@
+.copyright__link {
+  background-image: url("../img/logo-html-passive.svg");
+  width: 163px;
+  height: 34px;
+}
+
+.copyright__link:hover {
+  background-image: url("../img/logo-html-hover.svg");
+}
+.copyright__link:active {
+  background-image: url("../img/logo-html-active.svg");
+}

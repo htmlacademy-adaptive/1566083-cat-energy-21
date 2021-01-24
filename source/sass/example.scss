@@ -1,5 +1,5 @@
 .example {
-  background-color: #eaeaea;
+  background-color: ;
 }
 
 .example__wrapper {
@@ -8,7 +8,7 @@
 }
 
 .example__weightdays {
-  border: 1px solid #cdcdcd;
+  border: 1px solid $light-gray-2;
   box-sizing: border-box;
   border-radius: 3px;
   width: 124px;
@@ -22,8 +22,8 @@
 
 .example__description-weightdays {
   height: 31px;
-  background-color: #eaeaea;
-  font-family: Arial;
+  background-color: $light-gray-1;
+  font-family: "Arial","Oswald", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -32,29 +32,29 @@
   align-items: center;
   text-align: center;
   position: absolute;
-  color: #444444;
+  color: $dark-grey-2;
   bottom: -30px;
   padding: 0 5px 0 5px;
 }
 
 .example__description {
-  font-family: Arial;
+  font-family: "Arial","Oswald", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
 
-  font-family: Arial;
+  font-family: "Arial","Oswald", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
-  color: #444444;
+  color: $dark-grey-2;
   text-align: left;
 }
 
 .examle__title {
-  font-family: Oswald;
+  font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
@@ -63,11 +63,11 @@
 
   text-align: left;
 
-  color: #000000;
+  color: $black;
 }
 
 .example__description--price {
-  font-family: Oswald;
+  font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -76,7 +76,7 @@
   text-transform: uppercase;
 }
 .slider__toggle {
-  font-family: Oswald;
+  font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;

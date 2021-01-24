@@ -1,6 +1,6 @@
 .page-header__logo {
   height: 66px;
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid $light-gray-3;
 }
 .main-nav__wrapper {
   height: 264px;
@@ -16,7 +16,7 @@
   line-height: 26px;
   text-transform: uppercase;
   height: 66px;
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid $light-gray-3;
   justify-content: space-around;
   align-items: center;
   display: flex;
@@ -26,16 +26,24 @@
 
 .site-list__item > a {
   text-decoration: none;
-  color: #000000;
+  color: $black;
 }
 
 .site-list__item > a:visited {
-  color: #000000;
+  color: $black;
 }
 .site-list__item a:hover {
-  color: #000000;
+  color: $black;
 }
 .site-list__item a:active {
-  color: #000000;
+  color: $black;
   opacity: 0.3;
+}
+.main-nav__toggle {
+  background-image: url("../img/logo-open-main-menu.svg");
+  width: 27px;
+  height: 27px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
 }

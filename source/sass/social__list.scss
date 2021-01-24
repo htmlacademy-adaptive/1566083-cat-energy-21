@@ -1,8 +1,8 @@
 .social__list {
   height: 63px;
   display: flex;
-  border-bottom: 1px solid #d9d9d9;
-  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid $light-gray-5;
+  border-top: 1px solid $light-gray-5;
   margin-left: 20px;
   margin-right: 20px;
   align-items: center;
@@ -49,22 +49,4 @@
   background-image: url("../img/fb-icon-active.svg");
 }
 
-.copyright__link {
-  background-image: url("../img/logo-html-passive.svg");
-  width: 163px;
-  height: 34px;
-}
 
-.copyright__link:hover {
-  background-image: url("../img/logo-html-hover.svg");
-}
-.copyright__link:active {
-  background-image: url("../img/logo-html-active.svg");
-}
-
-.page-footer__social--logo {
-  height: 95px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}

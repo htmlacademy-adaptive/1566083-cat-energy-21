@@ -1,11 +1,13 @@
 .desc__item {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .desc__item--icon {
   width: 60px;
   height: 60px;
-  background-color: #68b738;
+  background-color: $background-green;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +18,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Arial;
+  font-family: "Arial","Oswald", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;

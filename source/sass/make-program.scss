@@ -1,0 +1,281 @@
+.make-program__title {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+  /* identical to box height, or 100% */
+
+  color: $black;
+}
+.make-program__description {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
+
+  text-transform: uppercase;
+
+  color: $black;
+}
+.make-program__data {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+
+  text-transform: uppercase;
+
+  /* special_dark-grey */
+}
+.make-program__choice {
+  margin: 20px;
+  border-top: 1px solid $light-gray-5;
+  border-bottom: 1px solid $light-gray-5;
+}
+.make-program__owner-title {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 26px;
+  /* or 108% */
+
+  color: $black;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.make-program__cat-owner {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+
+  text-transform: uppercase;
+
+  /* special_dark-grey */
+
+  color: $dark-grey-2;
+}
+
+.make-program__cat-owner--label {
+  margin-bottom: 20px;
+}
+
+.make-program__contacts {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 26px;
+  /* identical to box height, or 108% */
+
+  color: $black;
+}
+
+.make-program__contacts--title {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 26px;
+  /* identical to box height, or 108% */
+
+  color: $black;
+}
+
+.make-program__additionally--title {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 26px;
+  /* identical to box height, or 108% */
+
+  color: $black;
+  margin: 20px;
+}
+.make-program__additionally--list {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+
+  text-transform: uppercase;
+
+  color: $black;
+  margin: 20px;
+}
+.make-program__additionally {
+  display: flex;
+  flex-direction: column;
+}
+.make-program__label {
+  border: 1px solid $light-gray-4;
+  box-sizing: border-box;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  margin-left: 13px;
+  width: 100%;
+}
+
+.make-program__owner-contacts {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  /* or 112% */
+
+  text-transform: uppercase;
+
+  /* special_dark-grey */
+
+  color: $dark-grey-2;
+  border: 1px solid $light-gray-;
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+.make-program__contacts-label {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  /* or 112% */
+
+  text-transform: uppercase;
+
+  /* special_dark-grey */
+
+  color: $dark-grey-2;
+  border: 1px solid $light-gray-4;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.make-program__data--field {
+  display: flex;
+  margin-bottom: 14px;
+}
+.make-program__data--name-weight-years {
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 24px;
+}
+
+.make-program__choice--field {
+  display: flex;
+  flex-direction: row;
+  border: none;
+}
+
+.make-program__additionally--list {
+  display: flex;
+}
+
+.make-program__additionally--item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 13px;
+}
+
+.make-program__choice label {
+  display: flex;
+}
+
+.make-program__additionally--list label {
+  display: flex;
+}
+
+.make-program__choice input[type="radio"] {
+  opacity: 0;
+  display: none;
+}
+.make-program__choice input[type="radio"] + label::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url("../img/radiobutton.svg");
+  margin-right: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+}
+.make-program__choice input[type="radio"]:checked + label::before {
+  background-image: url("../img/radiobutton-active.svg");
+}
+.make-program__choice input[type="radio"]:disabled + label::before {
+  background-image: url("../img/radiobutton-passive-down.svg");
+}
+.make-program__choice input[type="radio"]:checked:disabled + label::before {
+  background-image: url("../img/radiobutton-active-down.svg");
+}
+
+.make-program__additionally--list input[type="checkbox"] {
+  opacity: 0;
+  display: none;
+}
+.make-program__additionally--list input[type="checkbox"] + label::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/checkbox-icon.svg");
+  margin-right: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+}
+.make-program__additionally--list
+  input[type="checkbox"]:checked
+  + label::before {
+  background-image: url("../img/checkbox-checked.svg");
+}
+.make-program__additionally--list
+  input[type="checkbox"]:disabled
+  + label::before {
+  background-image: url("../img/checkbox-disabled.svg");
+}
+.make-program__additionally--list
+  input[type="checkbox"]:checked:disabled
+  + label::before {
+  background-image: url("../img/checkbox-checked-disabled.svg");
+}
+
+.make-program__footnote {
+  font-family: "Arial", "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: $black;
+}
