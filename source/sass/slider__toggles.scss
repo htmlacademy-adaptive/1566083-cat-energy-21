@@ -1,4 +1,3 @@
-
 .slider__toggles--image input[type="checkbox"] {
   opacity: 0;
   display: none;
@@ -16,7 +15,6 @@
 
 .make-program__choice input[type="radio"]:checked + label::before {
   transform: rotate(180deg);
-
 }
 
 .slider__toggles--box {
@@ -27,30 +25,25 @@
   margin: 25px;
 }
 
-.slider__toggle--before{
+.slider__toggle--before {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 
-font-family: "Oswald", "Arial", sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 20px;
+  text-transform: uppercase;
 
-text-transform: uppercase;
-
-color: $black;
-
+  color: $black;
 }
 .slider__toggle--after {
   font-family: "Oswald", "Arial", sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 20px;
-
-text-transform: uppercase;
-
-color: $black;
-
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: $black;
 }
 
 .slider__toggle {
@@ -64,4 +57,3 @@ color: $black;
   text-align: center;
   text-transform: uppercase;
 }
-
