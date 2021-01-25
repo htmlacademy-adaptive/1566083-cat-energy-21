@@ -1,1 +1,29 @@
-// Начните писать стили здесь
+@import "colors.scss";
+@import "font.scss";
+@import "programs.scss";
+@import "main-nav.scss";
+@import "social__list.scss";
+@import "desc.scss";
+@import "example.scss";
+@import "location.scss";
+@import "page-footer.scss";
+@import "page-header.scss";
+@import "make-program.scss";
+@import "catalog__item.scss";
+@import "copyright__link.scss";
+@import "product-more__item.scss";
+@import "contacts.scss";
+@import "catalog.scss";
+@import "cat.scss";
+@import "slider__toggles.scss";
+@import "catalog-more.scss";
+@import "gift.scss";
+
+body {
+  background-color: $white;
+  font-family: "Oswald", "Arial", sans-serif;
+}
+
+.page {
+  width: 320px;
+}

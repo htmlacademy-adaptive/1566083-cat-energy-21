@@ -1,0 +1,22 @@
+.page-footer {
+  background-color: $light-grey-6;
+}
+.page-footer__contacts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.page-footer__social--logo {
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-footer__copyright {
+  height: 78px;
+  margin: 20px;
+  }

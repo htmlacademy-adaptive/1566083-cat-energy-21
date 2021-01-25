@@ -1,0 +1,130 @@
+.programs__header--green {
+  background-color: $background-green;
+  height: 302px;
+  color: $white;
+  position: relative;
+}
+
+.programs__header--chicken {
+  background-image: url(../img/chicken-image.png);
+  height: 270px;
+  top: -135px;
+  position: relative;
+}
+
+.programs__header--chicken-block {
+  height: 135px;
+}
+
+.programs__item {
+  margin: 20px;
+  padding: 20px;
+  background-color: $light-grey-6;
+}
+
+.programs__subtitle {
+  text-transform: uppercase;
+  color: $black;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 37px;
+}
+
+.programs__description {
+  font-family: "Arial", "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
+
+  /* special_dark-grey */
+
+  color: $dark-grey-2;
+}
+
+.programs__link {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.programs__link:active {
+  opacity: 0.3;
+}
+
+.programs__button {
+  display: flex;
+  width: 280px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: $background-green;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white;
+  outline: none;
+  border: none;
+}
+
+.programs__button:hover {
+  background: $green-for-button;
+}
+
+.programs__button:active > span {
+  color: $white;
+  opacity: 0.3;
+}
+
+.programs__title {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+
+  text-align: center;
+
+  color: $white;
+}
+
+.programs__slogan {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height, or 100% */
+
+  text-transform: uppercase;
+  text-align: center;
+
+  color: $white;
+}
+
+.programs__green-backround-cat {
+  background-image: url(../img/index-background-desktop-2.jpg);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0.1;
+}
+
+.programs__description--text {
+  margin-bottom: 25px;
+  border-bottom: border: 1px solid $light-grey-5:;
+  padding-bottom: 25px;
+}

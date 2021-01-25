@@ -1,134 +1,159 @@
 <!DOCTYPE html>
 <html class="page" lang="ru">
-  <head class="page-header">
-    <meta charset="utf-8">
-    <title>HTML Academy: Кэт энерджи</title>
-  </head>
-  <body class="page__body">
-    <a class="page-header__logo">
-      <img src="img/logo-mobile.svg" width="33" height="38" alt="Логотип Кэт Энерджи">
-      <img src="img/catenergy.svg" width="101" height="18" alt="Кэт Энерджи">
-    </a>
-    <nav class="main-nav">
-      <button class="main-nav__toggle" type="button">
-        <span>Открыть меню</span>
-      </button>
-      <div class="main-nav__wrapper">
-        <ul class="main-nav__list site-list">
-          <li class="site-list__item">
-            <a href="index.html">
-              Главная
-            </a>
-          </li>
-          <li class="site-list__item">
-            <a href="catalog.html">
-              Каталог продукции
-            </a>
-          </li>
-          <li class="site-list__item site-list__item--active">
-            <a>
-              Подбор программы
-            </a>
-          </li>
-        </ul>
-      </div>
-      <form action="https://echo.htmlacademy.ru">
-      <section class="make-program">
+
+<head class="page-header">
+  <meta charset="utf-8" />
+  <link type="text/css" rel="stylesheet" href="css/style.css" />
+  <title>HTML Academy: Кэт энерджи</title>
+</head>
+
+<body class="page__body">
+  <div class="page-header__logo">
+    <img src="img/logo-mobile.svg" width="33" height="38" alt="Логотип Кэт Энерджи" />
+    <img src="img/catenergy.svg" width="101" height="18" alt="Кэт Энерджи" />
+    <button class="main-nav__toggle" type="button"></button>
+  </div>
+  <div class="main-nav__list site-list">
+    <div class="site-list__item site-list__item--active">
+      <a> Главная </a>
+    </div>
+    <div class="site-list__item">
+      <a href=""> Каталог продукции </a>
+    </div>
+    <div class="site-list__item">
+      <a href=""> Подбор программы </a>
+    </div>
+  </div>
+  <section class="make-program">
     <div class="make-program__wrapper">
-      <h1>Подбор программы</h1>
+      <div class="make-program__title">Подбор программы</div>
       <p class="make-program__description"> Заполните анкету, и мы подберем <br>
         программу питания для вашего кота </p>
-      <div class="make-program__data">
-              <div class="make-program__data make-program__data--name">
-                <label for="name"> Имя:<sup>*</sup> </label>
-                <input type="text" id="name"/>
-              </div>
-              <div class="make-program__data make-program__data--weight">
-                <label for="weight"> Вес(кг): </label>
-                <input type="text" id="weight"/>
-              </div>
-              <div class="make-program__data make-program__data--years">
-                <label for="years"> Возраст(лет):<sup>*</sup> </label>
-                <input type="text" id="years"/>
-              </div>
-              <div>
-                <input type="radio" id="slim" name="goal"/>
-                <label for="slim"> Похудение </label>
-                <input type="radio" id="pro" name="goal"/>
-                <label for="pro"> Набор массы </label>
-                <input type="radio" id="dont-know" name="goal"/>
-                <label for="dont-know"> Не знаю (нужен ваш совет) </label>
-                </div>
-      </div>
-      <h2>Контактные данные <br>
-      (владельца кота)</h2>
-      <div class="make-program__cat-owner">
-        <div class="make-program__cat-owner make-program__cat-owner--email">
-          <label for="email"> e-mail:<sup>*</sup> </label>
-          <input type="text" id="email"/>
-        </div>
-        <div class="make-program__cat-owner make-program__cat-owner--phone">
-          <label for="phone"> Телефон:<sup>*</sup> </label>
-          <input type="text" id="phone"/>
+      <div class="make-program__data make-program__data--name-weight-years">
+        <div class="make-program__data ">
+          <div class="make-program__data make-program__data--field">
+            <label for="name"> Имя:<sup>*</sup> </label>
+            <input class="make-program__label" type="text" id="name" />
+          </div>
+          <div class="make-program__data make-program__data--field">
+            <label for="weight"> Вес(кг): </label>
+            <input class="make-program__label" type="text" id="weight" />
+          </div>
+          <div class="make-program__data make-program__data--field">
+            <label for="years"> Возраст(лет):<sup>*</sup> </label>
+            <input class="make-program__label" type="text" id="years" />
+          </div>
         </div>
       </div>
-      <div class="make-program__contacts">
-        <label for="contacts"> <h2>Комментарий <br></h2></label>
-        <input type="text" id="contacts"/>
+      <div class="make-program__choice">
+        <div class="make-program__choice make-program__choice--field">
+          <input type="radio" id="slim" name="goal" />
+          <label for="slim"> Похудение </label>
+        </div>
+        <div class="make-program__choice make-program__choice--field">
+          <input type="radio" id="pro" name="goal" />
+          <label for="pro"> Набор массы </label>
+        </div>
+        <div class="make-program__choice make-program__choice--field">
+          <input type="radio" id="dont-know" name="goal" />
+          <label for="dont-know"> Не знаю (нужен ваш совет) </label>
+        </div>
       </div>
-      <div class="make-program__additionally">
-        <input type="checkbox" id="sugar"/>
-        <label for="sugar"> сахарозаменитель </label>
-        <input type="checkbox" id="water"/>
-        <label for="water"> питьевая вода </label>
-        <input type="checkbox" id="milk"/>
-        <label for="milk"> молоко </label>
-        <input type="checkbox" id="vitamins"/>
-        <label for="vitamins"> витамины </label>
-      </div>
-      <button>Отправить заявку</button>
-      <div class="make-program__footnote"> <sup>*</sup> - Обязательные поля</div>
     </div>
-    </section>
+
+    <div class="make-program__owner-title">Контактные данные <br>
+      (владельца кота)</div>
+    <div class="make-program__cat-owner">
+      <div class="make-program__cat-owner make-program__cat-owner--label">
+        <label for="email"> e-mail:<sup>*</sup> </label>
+        <input class="make-program__owner-contacts" type="email" id="email" />
+      </div>
+      <div class="make-program__cat-owner make-program__cat-owner--label">
+        <label for="phone"> Телефон:<sup>*</sup> </label>
+        <input class="make-program__owner-contacts" type="tel" id="phone" />
+      </div>
+    </div>
+    <div class="make-program__contacts">
+      <label class="make-program__contacts make-program__contacts--title" for="contacts"> Комментарий <br></label>
+      <input class="make-program__contacts-label" type="text" id="contacts" />
+    </div>
+    <div class="make-program__additionally">
+      <div class="make-program__additionally make-program__additionally--title">Дополнительно </div>
+      <div class="make-program__additionally make-program__additionally--list">
+        <div class="make-program__additionally make-program__additionally--item">
+          <input type="checkbox" id="sugar" />
+          <label for="sugar"> сахарозаменитель </label>
+        </div>
+        <div class="make-program__additionally make-program__additionally--item">
+          <input type="checkbox" id="water" />
+          <label for="water"> питьевая вода </label>
+        </div>
+        <div class="make-program__additionally make-program__additionally--item">
+          <input type="checkbox" id="milk" />
+          <label for="milk"> молоко </label>
+        </div>
+        <div class="make-program__additionally make-program__additionally--item">
+          <input type="checkbox" id="vitamins" />
+          <label for="vitamins"> витамины </label>
+        </div>
+      </div>
+    </div>
+    </div>
+    <button class="programs__button">
+      <span>Отправить заявку </span> </button>
+    <div class="make-program__footnote"> <sup>*</sup> - Обязательные поля</div>
+
+  </section>
   </form>
   <footer class="page-footer">
     <div class="page-footer__wrapper">
       <div class="page-footer__contacts contacts">
-        <b class="contacts__title">приглашаем <br>
-        к сотрудничеству <br>
-        дилеров!</b>
+        <b class="contacts__title">приглашаем <br />
+          к сотрудничеству <br />
+          дилеров!</b>
         <p class="contacts__text">
-          ул. Большая <br>
-          Конюшенная, д. 19/8<br>
+          ул. Большая <br />
+          Конюшенная, д. 19/8<br />
           Санкт-Петербург
         </p>
       </div>
       <div class="location">
-        <img src="https://via.placeholder.com/311x232" width="320" height="362" alt="Месторасположение">
+        <img src="img/logo-map.svg" width="57" height="53" alt="Месторасположение" />
       </div>
       <div class="page-footer__social social">
-      <div>
-        <img src="img/catenergy.svg" width="128" height="24" alt="Кэт Энерджи">
+        <div class="page-footer__social page-footer__social--logo">
+          <img src="img/catenergy.svg" width="128" height="24" alt="Кэт Энерджи" />
+        </div>
+
+        <div class="social__list">
+          <div class="social__item">
+            <a href="">
+              <div class="social__link social__link--vkontakte"></div>
+            </a>
+          </div>
+          <div class="social__item">
+            <a href="">
+              <div class="social__link social__link--instagram"></div>
+            </a>
+          </div>
+          <div class="social__item">
+            <a href="">
+              <div class="social__link social__link--facebook"></div>
+            </a>
+          </div>
+        </div>
       </div>
 
-        <ul class="social__list">
-          <li class="social__item">
-            <a class="social__link social__link--vkontakte" href="">Вконтакте</a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--instagram" href="">Инстаграм</a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--facebook" href="">Фейсбук</a>
-          </li>
-        </ul>
-      </div>
       <div class="page-footer__copyright copyright">
-        <a class="copyright__link" href="">HTML Academy
-        <img src="img/htmlacademy.svg" width="281" height="34" alt="Логотип htmlacademy">
+        <a href="">
+          <div class="copyright__link-text">
+            Html Academy
+          </div>
+          <div class="copyright__link-logo"></div>
         </a>
       </div>
     </div>
   </footer>
-  </body>
+</body>
+
 </html>

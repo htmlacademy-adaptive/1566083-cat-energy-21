@@ -1,0 +1,59 @@
+.slider__toggles--image input[type="checkbox"] {
+  opacity: 0;
+  display: none;
+}
+
+.slider__toggles--image input[type="checkbox"] + label::before {
+  content: "";
+  display: block;
+  width: 84px;
+  height: 14px;
+  background-image: url("../img/slider-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.make-program__choice input[type="radio"]:checked + label::before {
+  transform: rotate(180deg);
+}
+
+.slider__toggles--box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+  margin: 25px;
+}
+
+.slider__toggle--before {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+
+  text-transform: uppercase;
+
+  color: $black;
+}
+.slider__toggle--after {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.slider__toggle {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}

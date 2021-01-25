@@ -1,0 +1,24 @@
+.desc__item {
+  display: flex;
+}
+
+.desc__item--icon {
+  width: 60px;
+  height: 60px;
+  background-color: $background-green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.desc__description {
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Arial", "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
