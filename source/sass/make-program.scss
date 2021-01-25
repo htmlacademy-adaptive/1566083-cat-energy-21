@@ -36,9 +36,9 @@
 }
 
 .make-program__choice {
-  margin: 20px;
   border-top: 1px solid $light-grey-5;
   border-bottom: 1px solid $light-grey-5;
+  font-family: Oswald;
 }
 
 .make-program__owner-title {
@@ -142,6 +142,7 @@
   text-transform: uppercase;
   margin-left: 13px;
   width: 100%;
+  outline:none;
 }
 
 .make-program__owner-contacts {
@@ -160,6 +161,7 @@
   border: 1px solid $light-grey-7;
   box-sizing: border-box;
   margin-right: 20px;
+  outline:none;
 }
 
 .make-program__contacts-label {
@@ -178,6 +180,9 @@
   border: 1px solid $light-grey-4;
   box-sizing: border-box;
   width: 100%;
+  height: 150px;
+  margin: 20px;
+  outline:none;
 }
 
 .make-program__data--field {
@@ -262,6 +267,7 @@
   background-position: center;
   display: flex;
   flex-direction: row;
+  background-size: contain;
 }
 
 .make-program__additionally--list
@@ -295,4 +301,8 @@
   text-align: center;
 
   color: $black;
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
 }

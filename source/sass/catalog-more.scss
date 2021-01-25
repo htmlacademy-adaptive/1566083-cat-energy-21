@@ -1,0 +1,65 @@
+.catalog-more__main {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $dark-grey-3;
+  margin-bottom: 10px;
+}
+
+.catalog-more__add {
+  font-family: "Arial", "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: $dark-grey-2;
+  margin-bottom: 20px;
+}
+.catalog-more-button {
+  display: flex;
+  width: 280px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: $light-grey-6;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: $dark-grey-2;
+  outline: none;
+  border: none;
+}
+
+.catalog-more-button:hover {
+  background: $light-grey-8;
+}
+
+.catalog-more-button:active > span {
+  background: $light-grey-8;
+  opacity: 0.3;
+}
+
+.catalog-more {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.catalog-more-plus {
+  background-image: url("../img/plus-button.svg");
+  width: 27px;
+  height: 27px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  outline: none;
+}

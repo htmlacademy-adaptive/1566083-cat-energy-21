@@ -1,5 +1,6 @@
 .example {
   background-color: $light-grey-1;
+  height: 705px;
 }
 
 .example__wrapper {
@@ -45,6 +46,7 @@
   line-height: 18px;
   color: $dark-grey-2;
   text-align: left;
+  margin-bottom: 25px;
 }
 
 .examle__title {
@@ -68,22 +70,28 @@
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
-}
-
-.slider__toggle {
-  font-family: "Oswald", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 45px;
 }
 
 .example__general {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.example__parameters {
+  margin-bottom: 30px;
+}
+
+.examle__title {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }

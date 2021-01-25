@@ -1,0 +1,22 @@
+.gift {
+  background-image: url(../img/gift-green-background-cat.jpg);
+  height: 290px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 35px;
+  margin-top: 40px;
+}
+
+.gift__green--slogan {
+font-family: "Arial", "Oswald", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+/* or 125% */
+display: flex;
+align-items: center;
+text-align: center;
+color: $white;
+}
+

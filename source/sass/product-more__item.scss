@@ -1,42 +1,44 @@
-.product-more__item--product-more-description-main {
+.product-more__description-main {
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 16px;
-  /* identical to box height, or 100% */
-
   display: flex;
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-
-  /* special_dark-grey-2 */
-
   color: $dark-grey;
-  margin-bottom: 13px;
 }
 
-.product-more__item--product-description-add {
+.product-more__description-add {
   font-family: "Arial", "Oswald", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 14px;
-  /* identical to box height, or 100% */
-
   display: flex;
   align-items: center;
-
-  /* special_dark-grey */
-
   color: $dark-grey-2;
+  justify-content: space-between;
+}
+
+.product-more__product {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.product-more {
   margin-left: 20px;
   margin-right: 20px;
 }
 
-.product-more__item--product {
-  margin-top: 13px;
-  margin-bottom: 13px;
+.product-more__item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-bottom: 1px solid $light-grey-8;
+    padding-bottom: 20px;
+    width: 280px;
 }
-

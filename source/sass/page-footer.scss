@@ -1,5 +1,5 @@
 .page-footer {
-  background-color: $white;
+  background-color: $light-grey-6;
 }
 .page-footer__contacts {
   display: flex;
@@ -15,3 +15,8 @@
   align-items: center;
   justify-content: center;
 }
+
+.page-footer__copyright {
+  height: 78px;
+  margin: 20px;
+  }

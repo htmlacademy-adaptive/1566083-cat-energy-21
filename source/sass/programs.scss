@@ -18,6 +18,7 @@
 
 .programs__item {
   margin: 20px;
+  padding: 20px;
   background-color: $light-grey-6;
 }
 
@@ -32,7 +33,7 @@
 }
 
 .programs__description {
-  font-family: Arial;
+  font-family: "Arial", "Oswald", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -89,7 +90,7 @@
 }
 
 .programs__title {
-  font-family: Oswald;
+  font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
@@ -120,4 +121,10 @@
   width: 100%;
   position: absolute;
   opacity: 0.1;
+}
+
+.programs__description--text {
+  margin-bottom: 25px;
+  border-bottom: border: 1px solid $light-grey-5:;
+  padding-bottom: 25px;
 }
