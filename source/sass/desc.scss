@@ -1,5 +1,16 @@
 .desc__item {
-  display: flex;
+  display: inline-flex;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    align-items: flex-start;
+    width: 250px;
+    height: 280px;
+    background-repeat: no-repeat;
+    background-position: right;
+    flex-direction: column;
+    margin-right: 140px;
+  }
 }
 
 .desc__item--icon {
@@ -10,6 +21,14 @@
   justify-content: center;
   align-items: center;
   margin-right: 20px;
+  flex-shrink: 0;
+
+  @media (min-width: 768px) {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 80px;
+    height: 80px;
+  }
 }
 
 .desc__description {
@@ -21,4 +40,32 @@
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
+  @media (min-width: 768px) {
+    width: 200px;
+    margin-bottom: 60px;
+  }
+}
+
+.desc__item--healthy {
+  @media (min-width: 768px) {
+    background-image: url("../img/1.jpg");
+  }
+}
+
+.desc__item--convinient {
+  @media (min-width: 768px) {
+    background-image: url("../img/2.jpg");
+  }
+}
+
+.desc__item--method {
+  @media (min-width: 768px) {
+    background-image: url("../img/3.jpg");
+  }
+}
+
+.desc__item--fast {
+  @media (min-width: 768px) {
+    background-image: url("../img/4.jpg");
+  }
 }

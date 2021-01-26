@@ -12,7 +12,14 @@
 .catalog__info {
   display: flex;
   align-items: center;
-  width: 280px;
+  width: calc(100% - 40px);
+  justify-content: space-between;
+
+  picture {
+    width: 50%;
+    min-width: 114px;
+    text-align: center;
+  }
 }
 
 .catalog__product-description-main {

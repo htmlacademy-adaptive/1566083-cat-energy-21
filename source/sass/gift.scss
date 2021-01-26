@@ -1,11 +1,25 @@
 .gift {
   background-image: url(../img/gift-green-background-cat.jpg);
+  background-color: $background-green;
   height: 290px;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 35px;
   margin-top: 40px;
-}
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @media (min-width: 768px) {
+    background-image: url(../img/tablet-gift-green-background-cat.jpg);
+    height: 200px;
+  }
+  @media (min-width: 1440px) {
+    background-image: url(../img/PC-gift-green-background-cat.jpg);
+    height: 290px;
+  }
+  }
 
 .gift__green--slogan {
   font-family: "Arial", "Oswald", sans-serif;
@@ -18,4 +32,12 @@
   align-items: center;
   text-align: center;
   color: $white;
+  margin-top: 50px;
+}
+
+.gift__green {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }

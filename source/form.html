@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="page" lang="ru">
+<html lang="ru">
 
 <head class="page-header">
   <meta charset="utf-8" />
@@ -26,73 +26,83 @@
   </div>
   <section class="make-program">
     <div class="make-program__wrapper">
-      <div class="make-program__title">Подбор программы</div>
+      <h1 class="make-program__title">Подбор программы</h1>
       <p class="make-program__description"> Заполните анкету, и мы подберем <br>
         программу питания для вашего кота </p>
-      <div class="make-program__data make-program__data--name-weight-years">
-        <div class="make-program__data ">
-          <div class="make-program__data make-program__data--field">
-            <label for="name"> Имя:<sup>*</sup> </label>
-            <input class="make-program__label" type="text" id="name" />
-          </div>
-          <div class="make-program__data make-program__data--field">
-            <label for="weight"> Вес(кг): </label>
-            <input class="make-program__label" type="text" id="weight" />
-          </div>
-          <div class="make-program__data make-program__data--field">
-            <label for="years"> Возраст(лет):<sup>*</sup> </label>
-            <input class="make-program__label" type="text" id="years" />
-          </div>
+      <div class="make-program__data">
+        <div class="make-program__field">
+          <label for="name"> Имя:<sup>*</sup> </label>
+          <input type="text" id="name" placeholder="барсик" />
+        </div>
+        <div class="make-program__field">
+          <label for="weight"> Вес(кг): </label>
+          <input type="text" id="weight" placeholder="7" />
+        </div>
+        <div class="make-program__field">
+          <label for="years"> Возраст(лет):<sup>*</sup> </label>
+          <input type="text" id="years" placeholder="7" />
         </div>
       </div>
       <div class="make-program__choice">
-        <div class="make-program__choice make-program__choice--field">
+        <div class="make-program__field">
           <input type="radio" id="slim" name="goal" />
           <label for="slim"> Похудение </label>
         </div>
-        <div class="make-program__choice make-program__choice--field">
+        <div class="make-program__field">
           <input type="radio" id="pro" name="goal" />
           <label for="pro"> Набор массы </label>
         </div>
-        <div class="make-program__choice make-program__choice--field">
+        <div class="make-program__field">
           <input type="radio" id="dont-know" name="goal" />
           <label for="dont-know"> Не знаю (нужен ваш совет) </label>
         </div>
       </div>
     </div>
 
-    <div class="make-program__owner-title">Контактные данные <br>
-      (владельца кота)</div>
-    <div class="make-program__cat-owner">
-      <div class="make-program__cat-owner make-program__cat-owner--label">
-        <label for="email"> e-mail:<sup>*</sup> </label>
-        <input class="make-program__owner-contacts" type="email" id="email" />
+    <div class="make-program__owner-title">
+      <div class="section-title">
+        <div></div>
+        <h2>Контактные данные (владельца кота)</h2>
+        <div></div>
       </div>
-      <div class="make-program__cat-owner make-program__cat-owner--label">
+    </div>
+    <div class="make-program__cat-owner">
+      <div class="make-program__field">
+        <label for="email"> e-mail:<sup>*</sup> </label>
+        <input type="email" id="email" placeholder="kuklachev@gmail.com" />
+        <div class="make-program__icon-email"> </div>
+      </div>
+      <div class="make-program__field">
         <label for="phone"> Телефон:<sup>*</sup> </label>
-        <input class="make-program__owner-contacts" type="tel" id="phone" />
+        <input type="tel" id="phone" placeholder="8 (960) 900-60-90" />
+        <div class="make-program__icon-phone"> </div>
       </div>
     </div>
     <div class="make-program__contacts">
-      <label class="make-program__contacts make-program__contacts--title" for="contacts"> Комментарий <br></label>
-      <input class="make-program__contacts-label" type="text" id="contacts" />
+      <div class="section-title">
+        <div></div>
+        <h2 class="make-program__section-title">Комментарий</h2>
+        <div></div>
+      </div>
+      <textarea class="make-program__contacts-label" type="text" id="contacts"
+        placeholder="Расскажите обо всех повадках кота"></textarea>
     </div>
     <div class="make-program__additionally">
-      <div class="make-program__additionally make-program__additionally--title">Дополнительно </div>
+      <div class="make-program__section-title">Дополнительно </div>
       <div class="make-program__additionally make-program__additionally--list">
-        <div class="make-program__additionally make-program__additionally--item">
+        <div class="make-program__field">
           <input type="checkbox" id="sugar" />
           <label for="sugar"> сахарозаменитель </label>
         </div>
-        <div class="make-program__additionally make-program__additionally--item">
+        <div class="make-program__field">
           <input type="checkbox" id="water" />
           <label for="water"> питьевая вода </label>
         </div>
-        <div class="make-program__additionally make-program__additionally--item">
+        <div class="make-program__field">
           <input type="checkbox" id="milk" />
           <label for="milk"> молоко </label>
         </div>
-        <div class="make-program__additionally make-program__additionally--item">
+        <div class="make-program__field">
           <input type="checkbox" id="vitamins" />
           <label for="vitamins"> витамины </label>
         </div>
@@ -101,8 +111,7 @@
     </div>
     <button class="programs__button">
       <span>Отправить заявку </span> </button>
-    <div class="make-program__footnote"> <sup>*</sup> - Обязательные поля</div>
-
+    <div class="make-program__footnote"> <span><sup>*</sup> - Обязательные поля</span></div>
   </section>
   </form>
   <footer class="page-footer">
@@ -122,7 +131,9 @@
       </div>
       <div class="page-footer__social social">
         <div class="page-footer__social page-footer__social--logo">
-          <img src="img/catenergy.svg" width="128" height="24" alt="Кэт Энерджи" />
+          <a href="">
+            <div class="page-footer__logo"></div>
+          </a>
         </div>
 
         <div class="social__list">

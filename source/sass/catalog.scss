@@ -5,9 +5,17 @@
   font-size: 36px;
   line-height: 36px;
   color: $black;
-  margin-left: 20px;
+  padding: 0 20px 0 20px;
   display: flex;
   align-items: center;
   border-bottom: 1px solid $light-grey-8;
   height: 104px;
+}
+
+.catalog__ingredients {
+  width: 100%;
+
+  td:last-of-type {
+    text-align: right;
+  }
 }

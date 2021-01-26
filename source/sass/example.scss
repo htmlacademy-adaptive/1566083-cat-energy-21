@@ -1,11 +1,13 @@
 .example {
   background-color: $light-grey-1;
-  height: 705px;
+
+  @media (min-width: 768px) and (max-width: 1440px) {
+    background-color: $white;
+  }
 }
 
 .example__wrapper {
-  margin-right: 20px;
-  margin-left: 20px;
+  padding: 27px 20px 20px 20px;
 }
 
 .example__weightdays {
@@ -14,11 +16,22 @@
   border-radius: 3px;
   width: 124px;
   height: 56px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   position: relative;
+  font-size: 24px;
+
+  @media (min-width: 768px) {
+    width: 162px;
+    height: 77px;
+    font-size: 30px;
+  }
+}
+
+.example__weightdays:first-of-type {
+  margin-right: 40px;
 }
 
 .example__description-weightdays {
@@ -35,7 +48,15 @@
   position: absolute;
   color: $dark-grey-2;
   bottom: -30px;
-  padding: 0 5px 0 5px;
+  padding: 0 15px 0 15px;
+
+  @media (min-width: 768px) and (max-width: 1440px) {
+    background-color: $white;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 14px;
+  }
 }
 
 .example__description {
@@ -47,19 +68,12 @@
   color: $dark-grey-2;
   text-align: left;
   margin-bottom: 25px;
-}
 
-.examle__title {
-  font-family: "Oswald", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 40px;
-  /* identical to box height, or 111% */
-
-  text-align: left;
-
-  color: $black;
+  @media (min-width: 768px) {
+    font-size: 16px;
+    margin-bottom: 54px;
+    margin-top: 63px;
+  }
 }
 
 .example__description--price {
@@ -70,28 +84,55 @@
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
-  margin-left: 45px;
-  margin-right: 45px;
+
   margin-bottom: 45px;
+  display: inline-flex;
+
+  @media (max-width: 768px) {
+    display: block;
+    width: 100%;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+    width: 195px;
+    text-align: right;
+  }
 }
 
 .example__general {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+
+  @media (min-width: 768px) {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
 }
 
 .example__parameters {
   margin-bottom: 30px;
+
+  @media (min-width: 768px) {
+    display: inline-flex;
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
-.examle__title {
+.example__title {
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
   line-height: 40px;
-  text-align: center;
-  margin-top: 30px;
+  text-align: left;
   margin-bottom: 30px;
+
+  @media (min-width: 768px) {
+    font-size: 60px;
+  }
 }
