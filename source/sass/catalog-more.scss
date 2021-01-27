@@ -57,6 +57,12 @@
   border-bottom: 1px solid $light-grey-8;
 }
 
+.catalog-more {
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
 .catalog-more-plus {
   background-image: url("../img/plus-button.svg");
   width: 27px;

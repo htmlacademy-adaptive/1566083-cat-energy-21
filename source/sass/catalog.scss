@@ -10,6 +10,10 @@
   align-items: center;
   border-bottom: 1px solid $light-grey-8;
   height: 104px;
+  @media (min-width: 768px) {
+    font-size: 60px;
+    line-height: 60px;
+  }
 }
 
 .catalog__ingredients {
