@@ -1,8 +1,48 @@
 .page-header__logo {
   height: 66px;
-  margin-right: 20px;
-  margin-left: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.page-header__logo-image {
+  background-image: url("../img/logo-mobile.svg");
+  width: 33px;
+  height: 38px;
+  background-repeat: no-repeat;
+  background-position: center;
+  @media (min-width: 768px) {
+    background-image: url("../img/logo-tablet.svg");
+    width: 174px;
+    height: 52px;
+  }
+
+  @media (min-width: 1440px) {
+    background-image: url("../img/logo-PC.svg");
+    width: 202px;
+    height: 60px;
+    :hover {
+      background-image: url("../img/logo-pc-hover.svg");
+    }
+    :active {
+      background-image: url("../img/logo-pc-active.svg");
+    }
+  }
+}
+
+.page-header__logo-text {
+  background-image: url("../img/catenergy.svg");
+  width: 101px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  @media (min-width: 768px) {
+    display: none;
+  }
+  @media (min-width: 1440px) {
+    display: none;
+  }
 }

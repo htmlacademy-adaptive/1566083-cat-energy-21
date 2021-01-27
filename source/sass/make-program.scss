@@ -4,9 +4,20 @@
   font-weight: normal;
   font-size: 36px;
   line-height: 36px;
-  /* identical to box height, or 100% */
-
   color: $black;
+  display: flex;
+  align-items: center;
+  @media (min-width: 768px) {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}
+
+.make-program__form {
+  @media (min-width: 1440px) {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .make-program__description {
@@ -20,6 +31,13 @@
   text-transform: uppercase;
 
   color: $black;
+  margin: 0;
+  margin-bottom: 37px;
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 .make-program__data {
@@ -28,20 +46,45 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
-  /* identical to box height, or 112% */
-
+  padding-bottom: 24px;
   text-transform: uppercase;
 
-  /* special_dark-grey */
+  @media (min-width: 768px) {
+    font-size: 20px;
+    line-height: 30px;
+
+    .make-program__field + .make-program__field {
+      margin-top: 14px;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    width: 50%;
+  }
 }
 
 .make-program__choice {
   border-top: 1px solid $light-grey-5;
   border-bottom: 1px solid $light-grey-5;
   font-family: Oswald;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 -20px 0 -20px;
+  padding: 20px;
+
+  @media (min-width: 768px) {
+    margin-left: 20px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border: 1px solid $light-grey-4;
+  }
+
+  @media (min-width: 1440px) {
+    width: 50%;
+  }
 }
 
-.make-program__owner-title {
+.make-program__owner-title h2 {
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -50,9 +93,12 @@
   /* or 108% */
 
   color: $black;
-  margin-left: 20px;
-  margin-right: 20px;
   margin-bottom: 20px;
+  margin-top: 26px;
+  @media (min-width: 768px) {
+    font-size: 36px;
+    line-height: 36px;
+  }
 }
 
 .make-program__cat-owner {
@@ -61,17 +107,17 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
-  /* identical to box height, or 112% */
-
   text-transform: uppercase;
-
-  /* special_dark-grey */
-
   color: $dark-grey-2;
-}
 
-.make-program__cat-owner--label {
-  margin-bottom: 20px;
+  @media (min-width: 768px) {
+    font-size: 20px;
+    line-height: 30px;
+
+    .make-program__field + .make-program__field {
+      margin-top: 14px;
+    }
+  }
 }
 
 .make-program__contacts {
@@ -83,29 +129,11 @@
   /* identical to box height, or 108% */
 
   color: $black;
-}
 
-.make-program__contacts--title {
-  font-family: "Oswald", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 26px;
-  /* identical to box height, or 108% */
-
-  color: $black;
-}
-
-.make-program__additionally--title {
-  font-family: "Oswald", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 26px;
-  /* identical to box height, or 108% */
-
-  color: $black;
-  margin: 20px;
+  @media (min-width: 768px) {
+    font-size: 36px;
+    line-height: 36px;
+  }
 }
 
 .make-program__additionally--list {
@@ -120,50 +148,26 @@
 
   color: $black;
   margin: 20px;
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 .make-program__additionally {
   display: flex;
   flex-direction: column;
+
+  @media (min-width: 768px) {
+
+    width: 100%;
+  }
+
+  .make-program__field + .make-program__field {
+    margin-top: 14px;
+  }
 }
-
-.make-program__label {
-  border: 1px solid $light-grey-4;
-  box-sizing: border-box;
-  font-family: Oswald;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 18px;
-  /* identical to box height, or 112% */
-
-  display: flex;
-  align-items: center;
-  text-transform: uppercase;
-  margin-left: 13px;
-  width: 100%;
-  outline:none;
-}
-
-.make-program__owner-contacts {
-  font-family: "Oswald", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 18px;
-  /* or 112% */
-
-  text-transform: uppercase;
-
-  /* special_dark-grey */
-
-  color: $dark-grey-2;
-  border: 1px solid $light-grey-7;
-  box-sizing: border-box;
-  margin-right: 20px;
-  outline:none;
-}
-
 .make-program__contacts-label {
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
@@ -181,40 +185,54 @@
   box-sizing: border-box;
   width: 100%;
   height: 150px;
-  margin: 20px;
-  outline:none;
+  outline: none;
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
-.make-program__data--field {
+.make-program__field {
+  align-items: center;
   display: flex;
-  margin-bottom: 14px;
-}
-
-.make-program__data--name-weight-years {
-  display: flex;
-  margin-right: 20px;
-  margin-left: 20px;
-  margin-bottom: 24px;
-}
-
-.make-program__choice--field {
-  display: flex;
-  flex-direction: row;
   border: none;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+
+  /* special_dark-grey-2 */
+
+  color: $dark-grey;
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  label {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .make-program__additionally--list {
-  display: flex;
-}
 
-.make-program__additionally--item {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 13px;
+  @media (min-width: 768px) {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
 }
 
 .make-program__choice label {
   display: flex;
+  align-items: center;
 }
 
 .make-program__additionally--list label {
@@ -228,7 +246,6 @@
 
 .make-program__choice input[type="radio"] + label::before {
   content: "";
-  display: block;
   width: 40px;
   height: 40px;
   background-image: url("../img/radiobutton.svg");
@@ -258,7 +275,6 @@
 
 .make-program__additionally--list input[type="checkbox"] + label::before {
   content: "";
-  display: block;
   width: 30px;
   height: 30px;
   background-image: url("../img/checkbox-icon.svg");
@@ -266,25 +282,18 @@
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
-  flex-direction: row;
   background-size: contain;
 }
 
-.make-program__additionally--list
-  input[type="checkbox"]:checked
-  + label::before {
+.make-program__additionally--list input[type="checkbox"]:checked + label::before {
   background-image: url("../img/checkbox-checked.svg");
 }
 
-.make-program__additionally--list
-  input[type="checkbox"]:disabled
-  + label::before {
+.make-program__additionally--list input[type="checkbox"]:disabled + label::before {
   background-image: url("../img/checkbox-disabled.svg");
 }
 
-.make-program__additionally--list
-  input[type="checkbox"]:checked:disabled
-  + label::before {
+.make-program__additionally--list input[type="checkbox"]:checked:disabled + label::before {
   background-image: url("../img/checkbox-checked-disabled.svg");
 }
 
@@ -298,11 +307,43 @@
 
   display: flex;
   align-items: center;
-  text-align: center;
+  justify-content: center;
 
   color: $black;
   width: 100%;
-  margin-top: 20px;
-  margin-left: 80px;
-  margin-right: 80px;
+  height: 80px;
+}
+
+.make-program {
+  padding: 0 20px 0 20px;
+  label {
+    white-space: nowrap;
+  }
+}
+
+.make-program__icon-email {
+  background-image: url("../img/icon-email.svg");
+  width: 26px;
+  height: 18px;
+  right: 35px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.make-program__icon-phone {
+  background-image: url("../img/icon-phone.svg");
+  width: 26px;
+  height: 25px;
+  right: 30px;
+  flex-shrink: 0;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.make-program__section-title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
 }

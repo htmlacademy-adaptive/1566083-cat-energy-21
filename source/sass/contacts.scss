@@ -11,6 +11,12 @@
   color: $dark-grey-3;
   width: 140px;
   height: 60px;
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+    width: 171px;
+    line-height: 21px;
+  }
 }
 
 .contacts__text {
@@ -26,4 +32,11 @@
   color: $dark-grey-2;
   width: 140px;
   height: 60px;
+
+
+  @media (min-width: 768px) {
+    font-size: 16px;
+    width: 159px;
+    line-height: 20px;
+  }
 }

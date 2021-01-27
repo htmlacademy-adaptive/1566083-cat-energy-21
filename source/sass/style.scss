@@ -1,5 +1,8 @@
 @import "colors.scss";
+@import "variables.scss";
 @import "font.scss";
+@import "inputs.scss";
+@import "section-title.scss";
 @import "programs.scss";
 @import "main-nav.scss";
 @import "social__list.scss";
@@ -9,8 +12,8 @@
 @import "page-footer.scss";
 @import "page-header.scss";
 @import "make-program.scss";
-@import "catalog__item.scss";
 @import "copyright__link.scss";
+@import "product-more.scss";
 @import "product-more__item.scss";
 @import "contacts.scss";
 @import "catalog.scss";
@@ -24,6 +27,9 @@ body {
   font-family: "Oswald", "Arial", sans-serif;
 }
 
-.page {
-  width: 320px;
+.page__body {
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
 }
+

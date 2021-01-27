@@ -22,7 +22,7 @@
 }
 .catalog-more-button {
   display: flex;
-  width: 280px;
+  width: 100%;
   height: 40px;
   justify-content: center;
   align-items: center;
@@ -50,16 +50,33 @@
 }
 
 .catalog-more {
-  margin-left: 20px;
-  margin-right: 20px;
+  padding: 0 20px 25px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid $light-grey-8;
+}
+
+.catalog-more {
+  @media (min-width: 768px) {
+    display: none;
+  }
 }
 
 .catalog-more-plus {
   background-image: url("../img/plus-button.svg");
   width: 27px;
   height: 27px;
+  margin-bottom: 23px;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
+  background-color: transparent;
   border: none;
   outline: none;
+
+  @media (min-width: 768px) {
+    width: 60px;
+    height: 60px;
+  }
 }
