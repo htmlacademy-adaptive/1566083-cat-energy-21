@@ -1,18 +1,13 @@
 .location {
   display: flex;
-  background-image: url("../img/map.jpg");
   background-color: $background-blue;
   background-repeat: no-repeat;
   background-size: cover;
   height: 362px;
   justify-content: center;
   align-items: center;
-  @media (min-width: 768px) {
-  background-image: url("../img/tablet-map.jpg");
-  height: 400px;
-  }
-  @media (min-width: 1440px) {
-    background-image: url("../img/PC-map.jpg");
-  height: 400px;
+
+  img {
+    position: absolute;
   }
 }

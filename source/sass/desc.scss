@@ -1,3 +1,20 @@
+.desc {
+  @media (max-width: 768px) {
+    padding-left: $page-padding-mobile;
+    padding-right: $page-padding-mobile;
+  }
+
+  @media (min-width: 768px) {
+    padding-left: $page-padding-tablet;
+    padding-right: $page-padding-tablet;
+  }
+
+  @media (min-width: 1440px) {
+    padding-left: $page-padding-desktop;
+    padding-right: $page-padding-desktop;
+  }
+}
+
 .desc__item {
   display: inline-flex;
   align-items: center;

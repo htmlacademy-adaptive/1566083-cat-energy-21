@@ -12,8 +12,8 @@
 @import "page-footer.scss";
 @import "page-header.scss";
 @import "make-program.scss";
-@import "catalog__item.scss";
 @import "copyright__link.scss";
+@import "product-more.scss";
 @import "product-more__item.scss";
 @import "contacts.scss";
 @import "catalog.scss";
@@ -25,5 +25,11 @@
 body {
   background-color: $white;
   font-family: "Oswald", "Arial", sans-serif;
+}
+
+.page__body {
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
 }
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="page" lang="ru">
+<html lang="ru">
 
 <head class="page-header">
   <meta charset="utf-8" />
@@ -8,20 +8,26 @@
 </head>
 
 <body class="page__body">
-  <div class="page-header__logo">
-    <img src="img/logo-mobile.svg" width="33" height="38" alt="Логотип Кэт Энерджи" />
-    <img src="img/catenergy.svg" width="101" height="18" alt="Кэт Энерджи" />
-    <button class="main-nav__toggle" type="button"></button>
-  </div>
   <div class="main-nav__list site-list">
-    <div class="site-list__item site-list__item--active">
-      <a> Главная </a>
+    <div>
+      <div class="page-header__logo">
+        <a href="">
+          <div class="page-header__logo-image"></div>
+        </a>
+        <div class="page-header__logo-text"></div>
+        <button class="main-nav__toggle" type="button"></button>
+      </div>
     </div>
-    <div class="site-list__item">
-      <a href=""> Каталог продукции </a>
-    </div>
-    <div class="site-list__item">
-      <a href=""> Подбор программы </a>
+    <div class="site-list-desktop">
+      <div class="site-list__item">
+        <a href="index.html"> Главная </a>
+      </div>
+      <div class="site-list__item site-list__item--active">
+        <a> Каталог продукции </a>
+      </div>
+      <div class="site-list__item">
+        <a href="form.html"> Подбор программы </a>
+      </div>
     </div>
   </div>
   <section class="catalog">
@@ -240,84 +246,91 @@
           <button class="programs__button"> <span>Заказать</span> </button>
         </div>
         <div class="catalog-more-tablet">
-          <button class="catalog-more-plus"> </button>
-          <div class="catalog-more__main"> Показать еще 100500 товаров </div>
-          <div class="catalog-more__add"> На самом деле вкусов гораздо больше! </div>
+          <div class="catalog__info">
+            <div class="catalog-info-button">
+              <button class="catalog-more-plus"> </button>
+              <div class="catalog-more__main">Показать еще 100500 товаров </div>
+              <div class="catalog-more__add">На самом деле вкусов гораздо больше! </div>
+            </div>
+          </div>
           <button class="catalog-more-button"> <span>Показать все</span> </button>
         </div>
       </div>
     </div>
     <div class="catalog-more">
-      <button class="catalog-more-plus"> </button>
-      <div class="catalog-more__main"> Показать еще 100500 товаров </div>
-      <div class="catalog-more__add"> На самом деле вкусов гораздо больше! </div>
+      <div class="catalog__info">
+        <button class="catalog-more-plus"> </button>
+        <div class="catalog-more__main"> Показать еще 100500 товаров </div>
+        <div class="catalog-more__add"> На самом деле вкусов гораздо больше! </div>
+      </div>
       <button class="catalog-more-button"> <span>Показать все</span> </button>
     </div>
-
-    </div>
   </section>
+  <div class="section-title">
+    <div></div>
+    <h2>Дополнительные товары</h2>
+    <div></div>
+  </div>
   <section class="product-more">
-    <div class="section-title">
-      <div></div>
-      <h2>Дополнительные товары</h2>
-      <div></div>
+    <div class="product-more__goods">
+      <div class="product-more__list">
+        <div class="product-more__item">
+          <div class="product-more__product">
+            <div class="product-more__description-main"> сахарозаменитель</div>
+            <div class="product-more__description-add">
+              <p>1 упаковка (100 г) </p>
+              <p>200 Р. </p>
+            </div>
+          </div>
+          <button class="programs__button"> <span>Заказать</span> </button>
+        </div>
+        <div class="product-more__item">
+          <div class="product-more__product">
+            <div class="product-more__description-main"> питьевая вода</div>
+            <div class="product-more__description-add">
+              <p>5 литров</p>
+              <p>50 Р.</p>
+            </div>
+          </div>
+          <button class="programs__button"> <span>Заказать</span> </button>
+        </div>
+        <div class="product-more__item">
+          <div class="product-more__product">
+            <div class="product-more__description-main"> молоко</div>
+            <div class="product-more__description-add">
+              <p>1 литр </p>
+              <p>100 Р. </p>
+            </div>
+          </div>
+          <button class="programs__button"> <span>Заказать</span> </button>
+        </div>
+        <div class="product-more__item">
+          <div class="product-more__product">
+            <div class="product-more__description-main"> витамины</div>
+            <div class="product-more__description-add">
+              <p>1 упаковка (30 г)</p>
+              <p>300 Р.</p>
+            </div>
+          </div>
+          <button class="programs__button"> <span>Заказать</span> </button>
+        </div>
+      </div>
+      <div class="gift">
+        <div class="gift__green">
+          <div class="gift__green gift__green--image">
+            <img src="img/icon-gift.svg" width="80" height="80" alt="Подарок" />
+          </div>
+          <div class="gift__green gift__green--slogan">Закажите все и получите чехол для кота в подарок!</div>
+        </div>
+      </div>
     </div>
-          <div class="product-more__item">
-        <div class="product-more__product">
-          <div class="product-more__description-main"> сахарозаменитель</div>
-          <div class="product-more__description-add">
-            <p>1 упаковка (100 г) </p>
-            <p>200 Р. </p>
-          </div>
-        </div>
-        <button class="programs__button"> <span>Заказать</span> </button>
-      </div>
-      <div class="product-more__item">
-        <div class="product-more__product">
-          <div class="product-more__description-main"> питьевая вода</div>
-          <div class="product-more__description-add">
-            <p>5 литров</p>
-            <p>50 Р.</p>
-          </div>
-        </div>
-        <button class="programs__button"> <span>Заказать</span> </button>
-      </div>
-      <div class="product-more__item">
-        <div class="product-more__product">
-          <div class="product-more__description-main"> молоко</div>
-          <div class="product-more__description-add">
-            <p>1 литр </p>
-            <p>100 Р. </p>
-          </div>
-        </div>
-        <button class="programs__button"> <span>Заказать</span> </button>
-      </div>
-      <div class="product-more__item">
-        <div class="product-more__product">
-          <div class="product-more__description-main"> витамины</div>
-          <div class="product-more__description-add">
-            <p>1 упаковка (30 г)</p>
-            <p>300 Р.</p>
-          </div>
-        </div>
-        <button class="programs__button"> <span>Заказать</span> </button>
-      </div>
   </section>
-  <section class="gift">
-    <div class="gift__green">
-      <div class="gift__green gift__green--image">
-        <img src="img/icon-gift.svg" width="80" height="80" alt="Подарок" />
-      </div>
-      <div class="gift__green gift__green--slogan">Закажите все и получите чехол для кота в подарок!</div>
-    </div>
-  </section>
-
   <footer class="page-footer">
     <div class="page-footer__wrapper">
       <div class="page-footer__contacts contacts">
-        <b class="contacts__title">приглашаем <br />
+        <p class="contacts__title">приглашаем <br />
           к сотрудничеству <br />
-          дилеров!</b>
+          дилеров!</p>
         <p class="contacts__text">
           ул. Большая <br />
           Конюшенная, д. 19/8<br />
@@ -325,41 +338,44 @@
         </p>
       </div>
       <div class="location">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1cqZFcUOtEx6UhhFQRNtXpBxNhCd24S7L" style="border: 0;"
+          width="100%" height="100%"></iframe>
         <img src="img/logo-map.svg" width="57" height="53" alt="Месторасположение" />
       </div>
-      <div class="page-footer__social social">
-        <div class="page-footer__social page-footer__social--logo">
-          <a href="">
-            <div class="page-footer__logo"></div>
-          </a>
-        </div>
+      <div class="page-footer__links">
+        <div class="page-footer__social social">
+          <div class="page-footer__social--logo">
+            <a href="">
+              <div class="page-footer__logo"></div>
+            </a>
+          </div>
 
-        <div class="social__list">
-          <div class="social__item">
-            <a href="">
-              <div class="social__link social__link--vkontakte"></div>
-            </a>
+          <div class="social__list">
+            <div class="social__item">
+              <a href="">
+                <div class="social__link--vkontakte"></div>
+              </a>
+            </div>
+            <div class="social__item">
+              <a href="">
+                <div class="social__link--instagram"></div>
+              </a>
+            </div>
+            <div class="social__item">
+              <a href="">
+                <div class="social__link--facebook"></div>
+              </a>
+            </div>
           </div>
-          <div class="social__item">
-            <a href="">
-              <div class="social__link social__link--instagram"></div>
-            </a>
-          </div>
-          <div class="social__item">
-            <a href="">
-              <div class="social__link social__link--facebook"></div>
+          <div class="page-footer__copyright copyright">
+            <a href="https://htmlacademy.ru/intensive/adaptive">
+              <div class="copyright__link-text">
+                Html Academy
+              </div>
+              <div class="copyright__link-logo"></div>
             </a>
           </div>
         </div>
-      </div>
-
-      <div class="page-footer__copyright copyright">
-        <a href="">
-          <div class="copyright__link-text">
-            Html Academy
-          </div>
-          <div class="copyright__link-logo"></div>
-        </a>
       </div>
     </div>
   </footer>

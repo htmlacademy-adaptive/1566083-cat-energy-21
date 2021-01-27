@@ -1,13 +1,17 @@
 .programs__header {
+  @media (min-width: 1440px) {
+    display: flex;
+    align-items: center;
+  }
+
   @media (max-width: 768px) {
     color: $white;
     position: relative;
   }
 }
 
-.programs__header--green {
+.programs__head-group {
   position: relative;
-  background-color: $background-green;
 
   .programs__button {
     padding: 0;
@@ -24,12 +28,8 @@
     }
   }
 
-  @media (min-width: 768px) and (max-width: 1440px) {
-    background-color: transparent;
-    padding-left: $page-padding-desktop;
-    padding-right: $page-padding-desktop;
-    padding-top: 64px;
-    padding-bottom: 40px;
+  @media (min-width: 768px) {
+    width: 414px;
 
     .programs__title {
       line-height: 60px;
@@ -41,11 +41,20 @@
       color: $black;
       padding: 0;
     }
+
+    padding-left: $page-padding-desktop;
+    padding-right: $page-padding-desktop;
+    padding-top: 64px;
+    padding-bottom: 40px;
+  }
+
+  @media (min-width: 768px) and (max-width: 1440px) {
+    background-color: transparent;
   }
 }
 
 .programs__header--chicken {
-  background-image: url(../img/chicken-image.png);
+  background-image: url(../img/mob-chicken-image@1x.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -53,11 +62,24 @@
   background-size: contain;
   position: relative;
   top: initial;
+  @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    background-image: url(../img/mob-chicken-image@2x.png);
+  }
 
   @media (max-width: 768px) {
+    background-image: url(../img/tablet-chicken-image@1x.png);
     height: 270px;
     top: -135px;
     position: relative;
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+      background-image: url(../img/tablet-chicken-image@2x.png);
+    }
+  }
+  @media (max-width: 1440px) {
+    background-image: url(../img/desktop-chicken-image@1x.png);
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+      background-image: url(../img/desktop-chicken-image@2x.png);
+    }
   }
 }
 
@@ -65,18 +87,54 @@
   @media (max-width: 768px) {
     height: 135px;
   }
+
+  @media (min-width: 1440px) {
+    width: 600px;
+  }
 }
 
 .programs__list {
+  @media (min-width: 1440px) {
+    display: flex;
+  }
+
   @media (min-width: 768px) {
-    display: none;
+    .programs__button {
+      display: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding-left: $page-padding-mobile;
+    padding-right: $page-padding-mobile;
+  }
+
+  @media (min-width: 768px) {
+    padding-left: $page-padding-tablet;
+    padding-right: $page-padding-tablet;
+  }
+
+  @media (min-width: 1440px) {
+    padding-left: $page-padding-desktop;
+    padding-right: $page-padding-desktop;
   }
 }
 
 .programs__item {
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 20px;
   background-color: $light-grey-6;
+
+  @media (min-width: 1440px) {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .programs__item:first-of-type {
+    margin-right: 80px;
+  }
 }
 
 .programs__grid {
@@ -109,7 +167,7 @@
   }
 }
 
-.programs__subtitle {
+.programs__subtitle-1 {
   text-transform: uppercase;
   color: $black;
   font-family: "Oswald", "Arial", sans-serif;
@@ -122,7 +180,7 @@
 
   img {
     margin-right: 19px;
-    @media (min-width: 768px) and (max-width: 1440px) {
+    @media (min-width: 768px) {
       display: none;
     }
   }
@@ -130,6 +188,21 @@
   @media (min-width: 768px) {
     font-size: 36px;
     line-height: 36px;
+  }
+}
+
+.programs__subtitle-2 {
+  display: none;
+  @media (min-width: 1440px) {
+    display: flex;
+    margin-right: 50px;
+  }
+}
+
+.programs__subtitle-all {
+  @media (min-width: 1440px) {
+    display: flex;
+    flex-direction: row;
   }
 }
 
@@ -174,7 +247,7 @@
 
 .programs__button {
   display: flex;
-  width: calc(100% - 40px);
+  width: 100%;
   height: 40px;
   justify-content: center;
   align-items: center;
@@ -238,16 +311,52 @@
 }
 
 .programs__green-backround-cat {
-  background-image: url(../img/index-background-desktop-2.jpg);
+  background-image: url(../img/mobile-background-cat@1x.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
   width: 100%;
   position: absolute;
   opacity: 0.1;
+  top: 0;
+  height: 300px;
+  @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    background-image: url(../img/mobile-background-cat@2x.jpg);
+  }
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+
+  @media (min-width: 1440px) {
+    background-image: url(../img/desktop-background-cat@1x.jpg);
+    background-size: contain;
+    display: block;
+    height: 649px;
+    width: 649px;
+    top: 0;
+    right: 0;
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+      background-image: url(../img/desktop-background-cat@2x.jpg);
+    }
+  }
+}
+
+.programs__background-cat-overlay {
+  background-color: $background-green;
+  height: 302px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: -1;
 
   @media (min-width: 768px) and (max-width: 1440px) {
     display: none;
+  }
+
+  @media (min-width: 768px) {
+    height: 649px;
+    width: 649px;
   }
 }
 
@@ -257,8 +366,6 @@
 }
 
 .desc__wrapper {
-  padding: 0 20px 26px 20px;
-
   h1 {
     font-family: Oswald;
     font-style: normal;

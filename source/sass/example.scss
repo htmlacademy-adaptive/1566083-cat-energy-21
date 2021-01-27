@@ -1,13 +1,32 @@
 .example {
   background-color: $light-grey-1;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  @media (max-width: 768px) {
+    padding-left: $page-padding-mobile;
+    padding-right: $page-padding-mobile;
+  }
+
+  @media (min-width: 768px) {
+    padding-left: $page-padding-tablet;
+    padding-right: $page-padding-tablet;
+  }
+
+  @media (min-width: 1440px) {
+    padding-left: $page-padding-desktop;
+    padding-right: $page-padding-desktop;
+  }
 
   @media (min-width: 768px) and (max-width: 1440px) {
     background-color: $white;
   }
-}
 
-.example__wrapper {
-  padding: 27px 20px 20px 20px;
+  @media (min-width: 1440px) {
+    display: flex;
+    height: 462px;
+    align-items: flex-end;
+  }
 }
 
 .example__weightdays {
@@ -98,6 +117,10 @@
     width: 195px;
     text-align: right;
   }
+
+  @media (min-width: 1440px) {
+    width: 400px;
+  }
 }
 
 .example__general {
@@ -106,6 +129,10 @@
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+  }
+
+  @media (min-width: 1440px) {
+    flex-direction: column;
   }
 }
 
@@ -134,5 +161,11 @@
 
   @media (min-width: 768px) {
     font-size: 60px;
+  }
+}
+
+.example__cat-slider {
+  @media (min-width: 1440px) {
+    width: 50%;
   }
 }

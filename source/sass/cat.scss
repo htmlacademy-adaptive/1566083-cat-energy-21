@@ -10,24 +10,24 @@
 
   img {
     height: 100%;
-  }
-}
-
-@media
-  (min-resolution: 144dpi),
-  (min-resolution: 1.5dppx) {
-   .page-header__logo {
-    background-image: url("img/before-cat-fat@2x.png");
+    max-width: 600px;
   }
 }
 
 .cat__mode {
-  overflow: hidden;
-  height: 600px;
+  height: 100%;
   display: flex;
+  justify-content: center;
+
+  @media (min-width: 768px) {
+    overflow: hidden;
+    height: 600px;
+    display: flex;
+  }
 }
 
 .cat__mode--before {
+  display: none;
   @media (min-width: 768px) {
     justify-content: flex-start;
     width: 30%;
@@ -37,19 +37,8 @@
 .cat__mode--after {
   @media (min-width: 768px) {
     justify-content: flex-end;
-    width: 30%;
+    display: flex;
   }
 }
 
 
-.cat-slim {
-  background-image: url("../img/after-cat-slim.png");
-}
-
-@media
-  (min-resolution: 144dpi),
-  (min-resolution: 1.5dppx) {
-   .page-header__logo {
-    background-image: url("img/after-cat-slim.png");
-  }
-}

@@ -1,8 +1,3 @@
-.page-header__logo {
-  height: 66px;
-  border-bottom: 1px solid $light-grey-3;
-}
-
 .main-nav__wrapper {
   height: 264px;
   display: flex;
@@ -83,4 +78,20 @@
   @media (min-width: 1440px) {
     display: none;
   }
+}
+
+.site-list-desktop {
+  display: flex;
+  flex-direction: column;
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+
+  @media (min-width: 1440px) {
+    flex-direction: row;
+  }
+}
+
+.site-list__item {
+  margin-right: 36px;
 }
